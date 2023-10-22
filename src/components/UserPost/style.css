@@ -1,0 +1,42 @@
+.userPost{
+    margin: 16px;
+    padding:4px 8px;
+    width: calc(100% - 54px);
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto;
+    cursor: pointer;
+    gap:24px;
+}
+.postSection{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border:1px solid rgb(61, 48, 48);
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.popup {
+    padding:4px 8px;
+    width: 90%;
+    min-height:240px;
+    overflow-x:scroll;
+    border:1px solid red;
+    /* height: 500px; */
+    position: absolute;
+    top: 32px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 601px) {
+    .userPost{
+        grid-template-columns: auto auto auto;
+    }
+    .text{
+        max-width: 240px;
+    }
+  }

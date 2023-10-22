@@ -1,0 +1,27 @@
+.headerSection{
+    margin: 16px;
+    padding:4px 8px;
+    width: calc(100% - 54px);
+    display: flex;
+    justify-content: space-between;
+}
+.countryDropdown{
+    margin: 0;
+}
+.select{
+    width: 136px;
+}
+.clock{
+    align-items: center;
+    display: flex;
+    border:px solid burlywood
+}
+
+@media only screen and (min-width: 601px) {
+    .userPost{
+        grid-template-columns: auto auto auto;
+    }
+    .text{
+        max-width: 240px;
+    }
+  }
